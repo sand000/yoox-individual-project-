@@ -1,10 +1,9 @@
-// count data
-let arr4 = JSON.parse(localStorage.getItem("procount")) || [];
-let procount = document.getElementById("procount");
-for(let a=0; a<arr4.length; a++){
-    procount.innerText = `${arr4.length} items`;
-   
-    }
+// mailid
+let arr = JSON.parse(localStorage.getItem("details")) || [];
+let emailadd = document.getElementById("emailadd");
+for(let i=0; i<arr.length; i++){
+   emailadd.innerText = arr[i].email
+}
 
 // getting data
     let arr1 =JSON.parse(localStorage.getItem("dress"));
@@ -19,6 +18,14 @@ for(let a=0; a<arr4.length; a++){
     gtotal.innerText = `US$ ${arr2[a]}`;
     }
 
+
+    // count data
+let arr4 = JSON.parse(localStorage.getItem("procount")) || [];
+let procount = document.getElementById("procount");
+for(let a=0; a<arr4.length; a++){
+    procount.innerText = `${arr4.length} items`;
+   
+    }
 
 
     // function ship to address
