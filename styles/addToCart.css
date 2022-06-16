@@ -1,0 +1,398 @@
+
+        *{
+            font-family: Montserrat,sans-serif;
+            font-weight: 500px;
+        }
+
+        #nav{
+            display: flex;
+            /* border:  1px solid black; */
+            height: 15px;
+            justify-content: space-around;
+        }
+
+        #nav>#ind>h5{
+            margin-top: -0px;
+            font-size: 10px;
+        }
+
+        #nav>#reg>div>h5{
+            margin-top: -0px;
+            font-size: 10px;
+        }
+
+        #reg>div>i{
+            font-size: 12px;
+        }
+
+        #nav>#ind>h5>a{
+            color: black;
+        }
+
+        #nav>#reg>div>h5>a{
+            color: black;
+        }
+
+        #nav>#ind{
+            display: flex;
+            gap: 20px;
+            /* border:  1px solid red; */
+            width: 200px;
+            margin-left: 110px;
+        }
+
+        #nav>#reg{
+            display: flex;
+            gap: 10px;
+            /* border:  1px solid red; */
+            width: 250px;
+            margin-left: 470px;
+        }
+
+        #reg>div{
+            /* border:  1px solid red; */
+            width: 40%;
+            display: flex;
+            gap: 5px;
+        }
+
+        #yoox{
+            margin: auto;
+            width: 80%;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            /* border: 1px solid rebeccapurple; */
+        }
+
+        #yoox>div{
+            width: 25%;
+            /* border: 1px solid rebeccapurple; */
+        }
+
+        #sec{
+            display: flex;
+            gap: 20px;
+            font-size: 18px;
+            color: rgb(52, 51, 51);
+            cursor: pointer;
+        }
+
+        #img>img{
+            height: 35px;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        #icons{
+            display: flex;
+            /* gap: 20px; */
+        }
+
+        #icons>i{
+            margin-top: 25px;
+            margin-left: 70px;
+            font-size: 23px; 
+            color: rgb(52, 51, 51);
+            cursor: pointer;
+        }
+
+        #opt{
+            border: 1px solid white;
+            background-color:rgb(52, 51, 51); 
+            color: white;
+            height: 35px;
+            
+        }
+
+        #opt>div{
+            font-size: 17px;
+            display: flex;
+            gap: 15px;
+            margin-left: 220px;
+        }
+        #opt>div>h6{
+            margin-top: 10px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        #main{
+            /* border: 1px solid red; */
+            height: auto;
+            margin-top: 30px;
+            display: flex;
+            gap: 46px;
+        }
+
+        #main>div{
+            /* border: 1px solid red; */
+            width: 48%;
+        }
+
+        #composition{
+            height: 160px;
+            display: flex;
+        }
+
+        #composition>div{
+            width: 45%;
+            margin-left: 5%;
+            /* border: 1px solid red; */
+        }
+
+        #composition>div>h4{
+            font-size: 14px;
+            line-height: 0px;
+            color: rgb(52, 51, 51);
+        }
+
+        #composition>div>p{
+            font-size: 14px;
+            color: rgb(52, 51, 51);
+        }
+
+        #composition>div>h6{
+            line-height: 0px;
+            font-size: 12px;
+            font-weight: 100;
+            color: rgb(52, 51, 51);
+        }
+
+        #composition>div>h6>a{
+            font-size: 12px;
+            font-weight: 600;
+            color: rgb(52, 51, 51);
+        }
+
+
+
+        #footer{
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            gap: 20px;
+            padding: 20px;
+            background-color: rgb(248, 242, 242);
+            /* border:  1px solid rebeccapurple; */
+        }
+
+        #footer{
+            /* border: 1px solid red; */
+            display: flex;
+        }
+
+        #one{
+            /* border:  1px solid rgb(39, 11, 122); */
+            display: flex;
+            width: 400px;
+            font-size: 14px;
+            gap: 30px;
+            justify-content: center;
+           
+        }
+
+        #one>div{
+            width: 130px;
+            /* border:  1px solid rgb(58, 219, 58);  */
+            padding:10px;
+        }
+
+        #one>div>h4{
+            margin: auto;
+            text-align: center;
+            font-size: 15px;
+            color:  rgb(48, 47, 47);
+        }
+
+        #one>div>p{
+            /* border: 1px solid rebeccapurple; */
+            text-align: center;
+            color:  rgb(61, 60, 60);
+        }
+
+        hr{
+            width: 30%;
+            border-color: black;
+        }
+
+        #news{
+            padding: 20px;
+            width: 230px;
+            height: 370px;
+            background-color: white;
+            /* border: 1px solid rebeccapurple; */
+        }
+
+        #news>p{
+            text-align: center;
+            font-size: 14px;
+            color:  rgb(61, 60, 60);
+           
+        }
+        #news>h3{
+            text-align: center;
+            color:  rgb(48, 47, 47);
+        }
+
+        #signup{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        #email{
+            background-color: rgb(243, 237, 237);
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 12px;
+            width: 90%;
+        }
+
+        #pp{
+            display: flex;
+            gap: 10px;
+            /* border: 1px solid rebeccapurple; */
+        }
+
+        #pp>div>p{
+            font-size: 13px;
+            color:  rgb(177, 173, 173);
+            font-style: italic;
+        }
+
+        #pp>div>p>a{
+            color:  rgb(134, 131, 131);
+            font-weight: 600;
+        }
+
+        #mf{
+            /* border: 1px solid rebeccapurple; */
+            gap: 20px;
+            display: flex;
+            margin: auto;
+        }
+
+        #mf>div{
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        #checkpp{
+            margin-top: 40px;
+        }
+
+        #signup{
+            padding: 10px;
+            width: 100%;
+        }
+
+        #two{
+            /* border:  1px solid rgb(39, 11, 122); */
+            display: flex;
+            width: 300px;
+            font-size: 14px;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        #connect{
+            background-color: rgb(244, 241, 241);;
+            display: flex;
+            gap: 7%;
+            border:  1px solid white;
+            height: 70px;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        } 
+
+        #connect>div{
+            /* border:  1px solid rebeccapurple; */
+            width: 30%;
+            display: flex;
+            gap: 20px;
+
+        }
+    
+        #first>div{
+            height: 40%;
+            width: auto;
+            /* border: 1px solid black; */
+        }
+
+        #first>div>p{
+            margin-top: 5px;
+            font-size: 11px;
+            font-weight: 700;
+            color:  rgb(48, 47, 47);
+
+        }
+
+        #first>div>i{
+            font-size: 22px;
+            color:  rgb(48, 47, 47);
+        }
+
+        #grey{
+            height: 100px;
+            background-color:  rgb(48, 47, 47);;
+        }
+
+        #grey>h5{
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        #grey>p{
+            color: grey;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        #dressimg{
+            display: block;
+            margin: auto;
+        }
+
+        #size{
+            display: flex;
+            gap: 40px;
+            color: rgb(82, 80, 80);
+        }
+
+        #add{
+            margin-top: 40px;
+            margin-left: 30px;
+            width: 90%;
+            background-color: black;
+            color: white;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        #add1{
+            margin-top: 5px;
+            margin-left: 30px;
+            width: 90%;
+            background-color: rgb(230, 227, 227);
+            color: rgb(71, 69, 69);
+            font-weight: bold;
+            height: 50px;
+            border: none;
+        }
+
+        #exclude{
+            margin-top: 7px;
+            margin-left: 30px;
+            width: 90%;
+            height: 30px;
+            font-size: 12px;
+            color: rgb(71, 69, 69);
+            text-align: center;
+            background-color: rgb(244, 244, 147);
+        }

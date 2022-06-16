@@ -1,0 +1,497 @@
+*{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500px;
+}
+
+#nav{
+    display: flex;
+    /* border:  1px solid black; */
+    height: 15px;
+    justify-content: space-around;
+}
+
+#nav>#ind>h5{
+    margin-top: -0px;
+    font-size: 10px;
+}
+
+#nav>#reg>div>h5{
+    margin-top: -0px;
+    font-size: 10px;
+}
+
+#reg>div>i{
+    font-size: 12px;
+}
+
+#nav>#ind>h5>a{
+    color: black;
+}
+
+#nav>#reg>div>h5>a{
+    color: black;
+}
+
+#nav>#ind{
+    display: flex;
+    gap: 20px;
+    /* border:  1px solid red; */
+    width: 200px;
+    margin-left: 110px;
+}
+
+#nav>#reg{
+    display: flex;
+    gap: 10px;
+    /* border:  1px solid red; */
+    width: 250px;
+    margin-left: 470px;
+}
+
+#reg>div{
+    /* border:  1px solid red; */
+    width: 40%;
+    display: flex;
+    gap: 5px;
+}
+
+#yoox{
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#yoox>div{
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#sec{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+#img>img{
+    height: 35px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#icons{
+    display: flex;
+    /* gap: 20px; */
+}
+
+#icons>i{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 23px; 
+    color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+#opt{
+    border: 1px solid white;
+    background-color:rgb(52, 51, 51); 
+    color: white;
+    height: 35px;
+    
+}
+
+#opt>div{
+    font-size: 17px;
+    display: flex;
+    gap: 15px;
+    margin-left: 220px;
+}
+#opt>div>h6{
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#banner>img{
+    height: 800px;
+    width: 100%;
+}
+
+#banner>div{
+    height: 60px;
+    margin-top: -1px;
+    background-color: #FF9587 ;
+}
+
+#banner>div>h4{
+    margin-top: -6px;
+    text-align: center;
+    color: rgb(52, 51, 51);
+}
+
+#arrival{
+      /* border: 1px solid rebeccapurple;  */
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#arrival>h2{
+    font-weight: 200;
+}
+
+#dress{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid rebeccapurple;  */
+    display: flex;
+    gap: 20px;
+    background-color: rgb(248, 242, 242);
+}
+
+#dress>div{
+    cursor: pointer;
+    margin: auto;
+    /* border: 1px solid rebeccapurple;  */
+}
+
+#dress>div>div{
+    /* border: 1px solid rebeccapurple; */
+    margin-top: -20x;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    /* background-color: white; */
+}
+
+#dress>div>div>p{
+    font-size: 12px;
+    color: rgb(52, 51, 51);
+}
+
+#dress>div>div>h6{
+    color: rgb(52, 51, 51);
+}
+
+#dress>div>div>h5{
+    color: rgb(52, 51, 51);
+}
+
+
+
+
+#dress1{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid rebeccapurple;  */
+    display: flex;
+    gap: 20px;
+    background-color: rgb(248, 242, 242);
+}
+
+#dress1>div{
+    cursor: pointer;
+    margin: auto;
+    /* border: 1px solid rebeccapurple;  */
+}
+
+#dress1>div>div{
+    /* border: 1px solid rebeccapurple; */
+    margin-top: -20x;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    /* background-color: white; */
+}
+
+#dress1>div>div>p{
+    font-size: 12px;
+    color: rgb(52, 51, 51);
+}
+
+#dress1>div>div>h6{
+    color: rgb(52, 51, 51);
+}
+
+#dress1>div>div>h5{
+    color: rgb(52, 51, 51);
+}
+
+#twist{
+    margin-top: 150px;
+    /* border: 1px solid red; */
+    height: 550px;
+    display: flex;
+    gap:20px ;
+    margin-bottom: 220px;
+}
+
+#normal{
+    height: 100%;
+    
+}
+
+#twist>div>h2{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    color: rgb(52, 51, 51);
+}
+
+
+#twist>div>p{
+  
+    text-align: center;
+    font-size: 14px;
+    color: rgb(52, 51, 51);
+}
+
+.purse{
+    margin-top: -30px;
+    height: 610px;
+}
+
+#kind{
+   /* border: 1px solid rebeccapurple; */
+   background-color: rgb(241, 239, 239);
+   height: 750px;
+}
+
+#dance{
+    height: 600px;
+    background-color: rgb(241, 239, 239);
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#big{
+    /* border: 1px solid rebeccapurple; */
+    height: 600px;
+    margin-left: 100px;
+}
+
+#small{
+    width: 260px;
+   height: 320px;
+}
+
+#lowerimpact{
+    cursor: pointer;
+    width: 270px;
+    height: 460px;
+    text-align: center;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: -540px;
+     margin-left: 880px;
+     background-color: white;
+}
+
+#lowermipact>div{
+    background-color: white;
+}
+
+
+#crazy{
+    margin-top:70px ;
+    display: flex;
+}
+
+#crazy>div{
+    width: 50%;
+}
+
+
+
+
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(248, 242, 242);
+    /* border:  1px solid rebeccapurple; */
+}
+
+#footer{
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#one{
+    /* border:  1px solid rgb(39, 11, 122); */
+    display: flex;
+    width: 400px;
+    font-size: 14px;
+    gap: 30px;
+    justify-content: center;
+   
+}
+
+#one>div{
+    width: 130px;
+    /* border:  1px solid rgb(58, 219, 58);  */
+    padding:10px;
+}
+
+#one>div>h4{
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    color:  rgb(48, 47, 47);
+}
+
+#one>div>p{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    color:  rgb(61, 60, 60);
+}
+
+hr{
+    width: 30%;
+    border-color: black;
+}
+
+#news{
+    padding: 20px;
+    width: 230px;
+    height: 370px;
+    background-color: white;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#news>p{
+    text-align: center;
+    font-size: 14px;
+    color:  rgb(61, 60, 60);
+   
+}
+#news>h3{
+    text-align: center;
+    color:  rgb(48, 47, 47);
+}
+
+#signup{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#email{
+    background-color: rgb(243, 237, 237);
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 90%;
+}
+
+#pp{
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#pp>div>p{
+    font-size: 13px;
+    color:  rgb(177, 173, 173);
+    font-style: italic;
+}
+
+#pp>div>p>a{
+    color:  rgb(134, 131, 131);
+    font-weight: 600;
+}
+
+#mf{
+    /* border: 1px solid rebeccapurple; */
+    gap: 20px;
+    display: flex;
+    margin: auto;
+}
+
+#mf>div{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#checkpp{
+    margin-top: 40px;
+}
+
+#signup{
+    padding: 10px;
+    width: 100%;
+}
+
+#two{
+    /* border:  1px solid rgb(39, 11, 122); */
+    display: flex;
+    width: 300px;
+    font-size: 14px;
+    gap: 10px;
+    justify-content: center;
+}
+
+#connect{
+    background-color: rgb(244, 241, 241);;
+    display: flex;
+    gap: 7%;
+    border:  1px solid white;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+#connect>div{
+    /* border:  1px solid rebeccapurple; */
+    width: 30%;
+    display: flex;
+    gap: 20px;
+
+}
+
+#first>div{
+    height: 40%;
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+#first>div>p{
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    color:  rgb(48, 47, 47);
+
+}
+
+#first>div>i{
+    font-size: 22px;
+    color:  rgb(48, 47, 47);
+}
+
+#grey{
+    height: 100px;
+    background-color:  rgb(48, 47, 47);;
+}
+
+#grey>h5{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#grey>p{
+    color: grey;
+    font-size: 11px;
+    text-align: center;
+}

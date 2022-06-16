@@ -1,0 +1,229 @@
+*{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500px;
+}
+
+#nav{
+    display: flex;
+    /* border:  1px solid black; */
+    height: 15px;
+    justify-content: space-around;
+}
+
+#nav>#ind>h5{
+    margin-top: -0px;
+    font-size: 10px;
+}
+
+#nav>#reg>div>h5{
+    margin-top: -0px;
+    font-size: 10px;
+}
+
+#reg>div>i{
+    font-size: 12px;
+}
+
+#nav>#ind>h5>a{
+    color: black;
+}
+
+#nav>#reg>div>h5>a{
+    color: black;
+}
+
+#nav>#ind{
+    display: flex;
+    gap: 20px;
+    /* border:  1px solid red; */
+    width: 200px;
+    margin-left: 110px;
+}
+
+#nav>#reg{
+    display: flex;
+    gap: 10px;
+    /* border:  1px solid red; */
+    width: 250px;
+    margin-left: 470px;
+}
+
+#reg>div{
+    /* border:  1px solid red; */
+    width: 40%;
+    display: flex;
+    gap: 5px;
+}
+
+#yoox{
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#yoox>div{
+    width: 25%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#sec{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+#img>img{
+    height: 35px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#icons{
+    display: flex;
+    /* gap: 20px; */
+}
+
+#icons>i{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 23px; 
+    color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+
+h3{
+  
+   font-size: 20px;
+   text-align: center;
+}
+
+#back{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    gap: 250px;
+    justify-content: space-around;
+}
+
+#back>div>a{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(52, 51, 51);
+}
+
+#back>div>button{
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(46, 45, 45);
+}
+
+#added{
+   border: 1px solid grey; 
+   border-radius: 5px;
+   height: auto; 
+   display: flex;
+   width: 80%;
+   gap: 20px;
+   margin: auto;
+  
+}
+
+#added>div{
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    height: 200px;
+
+}
+
+
+#added>div>div{
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#itemadded>h4{
+    margin-left: 110px;
+
+}
+#totalforItems{
+    /* border: 1px solid rebeccapurple;  */
+    height: 250px;
+    display: flex;
+    color: rgb(52, 51, 51);
+}
+
+#totalforItems>div{
+    margin-left: 150px;
+    /* border: 1px solid rebeccapurple; */
+    width: 47%;
+}
+
+#totalforItems>div>h4{
+    /* font-size: 14px; */
+    margin-bottom: 40px;
+}
+
+#totalforItems>div>p{
+    font-size: 13px;
+    margin-top: -35px;
+}
+
+#order{
+ font-weight: bolder;
+ font-size: 17px;
+ margin-left: 150px;
+ color: rgb(52, 51, 51);
+}
+
+#grey{
+    height: 100px;
+    background-color:  rgb(48, 47, 47);;
+}
+
+#grey>h5{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#grey>p{
+    color: grey;
+    font-size: 11px;
+    text-align: center;
+}
+
+#dressimg{
+    height: 100%;
+    width: 100%;
+}
+
+#div{
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    width: 700px
+}
+
+#remove{
+    color: white;
+    font-size: 10px;
+    padding: 7px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(48, 47, 47);
+}
+
+#ordertotal{
+    display: flex;
+    gap: 500px;
+}

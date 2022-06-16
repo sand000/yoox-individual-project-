@@ -1,0 +1,290 @@
+
+      *{
+        font-family: Montserrat,sans-serif;
+        font-weight: 500px;
+    }
+
+    #nav{
+        display: flex;
+        /* border:  1px solid black; */
+        height: 15px;
+        justify-content: space-around;
+    }
+
+    #nav>#ind>h5{
+        margin-top: -0px;
+        font-size: 10px;
+    }
+
+    #nav>#reg>div>h5{
+        margin-top: -0px;
+        font-size: 10px;
+    }
+
+    #reg>div>i{
+        font-size: 12px;
+    }
+
+    #nav>#ind>h5>a{
+        color: black;
+    }
+
+    #nav>#reg>div>h5>a{
+        color: black;
+    }
+
+    #nav>#ind{
+        display: flex;
+        gap: 20px;
+        /* border:  1px solid red; */
+        width: 200px;
+        margin-left: 110px;
+    }
+
+    #nav>#reg{
+        display: flex;
+        gap: 10px;
+        /* border:  1px solid red; */
+        width: 250px;
+        margin-left: 470px;
+    }
+
+    #reg>div{
+        /* border:  1px solid red; */
+        width: 40%;
+        display: flex;
+        gap: 5px;
+    }
+
+    #yoox{
+        margin: auto;
+        width: 80%;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    #yoox>div{
+        width: 25%;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+
+
+    #sec{
+        display: flex;
+        gap: 20px;
+        font-size: 18px;
+        color: rgb(52, 51, 51);
+        cursor: pointer;
+    }
+
+    #img>img{
+        height: 35px;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #icons{
+        display: flex;
+        /* gap: 20px; */
+    }
+
+    #icons>i{
+        margin-top: 25px;
+        margin-left: 70px;
+        font-size: 23px; 
+        color: rgb(52, 51, 51);
+        cursor: pointer;
+    }
+
+    #opt{
+        border: 1px solid white;
+        background-color:rgb(52, 51, 51); 
+        color: white;
+        height: 35px;
+        
+    }
+
+    #opt>div{
+        font-size: 17px;
+        display: flex;
+        gap: 15px;
+        margin-left: 220px;
+    }
+    #opt>div>h6{
+        margin-top: 10px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    #banner>img{
+        height: 800px;
+        width: 100%;
+    }
+
+    #dotted{
+        border: rgb(58, 56, 56);
+        background-color: rgb(58, 56, 56); 
+        height: 7px;
+    }
+    #myyooxreg{
+        text-align: center;
+        height: 200px;
+        color: rgb(58, 56, 56);
+        background-color: rgb(242, 242, 242);; 
+    }
+
+
+    #myyooxreg>h3{
+       line-height: 0px;
+
+    }
+    #myyooxreg>p{
+        font-size: 13px;
+                    
+    }
+
+   #myyooxreg>h5>a{
+    font-size: 14px;
+    margin-top: -10px;
+    color: rgb(58, 56, 56); 
+   }
+
+   #form{
+    margin-top: 20px;
+    background-color: white;
+   }
+
+   #facebook{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+     border: 1px solid rebeccapurple;
+     background-color: #3E56A3;
+   }
+
+   #innerform{
+    cursor: pointer;
+      width: 35%;
+      margin: auto;
+       /* border: 1px solid rebeccapurple; */
+   }
+
+   #innerform>p{
+    font-size: 13px;
+    text-align: center;
+   }
+
+   #innerform>input{
+    margin: auto;
+    text-align: center;
+    width: 99%;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(249, 246, 246);
+   }
+
+   #google{
+    width: 96%;
+    padding: 7px;
+     border: 1.5px solid rgb(226, 223, 223);
+   }
+
+   #google>img{
+    height: 35px;
+    display: block;
+    margin: auto;
+   }
+
+   #mf{
+        /* border: 1px solid rebeccapurple; */
+        gap: 20px;
+        display: flex;
+        margin: auto;
+    }
+
+    #mf>div{
+        width: 50%;
+        font-size: 14px;
+        font-weight: 800;
+        font-style: italic;
+
+    }
+
+    #innerform>h6{
+        font-weight: 100;
+        font-style: italic;
+        color: gray;
+        font-size: 12px;
+    }
+
+    #declare{
+        /* border: 1px solid rebeccapurple; */
+        height: 40px;
+    }
+
+
+    #declare>h6>a{
+        color: gray;
+    }
+    #pp{
+        display: flex;
+        gap: 10px;
+        background-color: rgb(249, 246, 246);
+        /* border: 1px solid rebeccapurple; */
+    }
+
+    #pp>div>p{
+        font-size: 13px;
+        color:  rgb(177, 173, 173);
+        font-style: italic;
+    }
+
+    #pp>div>p>a{
+        color:  rgb(134, 131, 131);
+        font-weight: 600;
+    }
+
+    #checkpp{
+        margin-top: 60px;
+    }
+
+    #signup{
+        padding: 10px;
+        width: 100%;
+        border: none;
+        background-color: rgb(49, 48, 48); 
+        color: white;
+        font-weight: bolder;
+        height: 50px;
+    }
+
+
+    #grey{
+        height: 100px;
+        background-color:  rgb(48, 47, 47);;
+    }
+
+    #grey>h5{
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #grey>p{
+        color: grey;
+        font-size: 11px;
+        text-align: center;
+    }
+
+

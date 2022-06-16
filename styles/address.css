@@ -1,0 +1,133 @@
+*{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500px;
+}
+
+#container{
+   
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+
+#container>div{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 70px;
+    /* border: 1px solid red; */
+}
+
+#emaildiv{
+    color: rgb(43, 42, 42);
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 15px;
+}
+
+#emaildiv>p{
+    font-size: 13px;
+}
+
+#emaildiv>p>a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#shippingdiv{
+    color: rgb(43, 42, 42);
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    background-color: white;
+    padding: 15px;
+}
+
+#shippingdiv>p{
+    font-size: 13px;
+}
+
+#shippingdiv>input{
+    background-color: rgb(240, 239, 239);
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 220px;
+    height: 33px;
+}
+
+
+#ship{
+    background-color:  rgb(53, 52, 52);
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 13px ;
+    margin-left: 275px;
+    width: 240px;
+
+}
+
+#yourorder{
+    padding: 20px;
+    color: rgb(53, 52, 52);;
+    width: 300px;
+    height: 540px;
+    /* border: 1px solid black;  */
+    background-color: white
+}
+
+#itemcount{
+    display: flex;
+    gap: 70px;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+
+#itemcount>p{
+    margin-top: 25px;
+}
+
+#yourorder>h6{
+    line-height: 0px;
+    font-size: 12px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#yourorder>p{
+    font-size: 14px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#gtotal{
+    margin-left: 200px;
+}
+
+
+#grey{
+    height: 100px;
+    background-color:  rgb(48, 47, 47);;
+}
+
+#grey>h5{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#grey>p{
+    color: grey;
+    font-size: 11px;
+    text-align: center;
+}
+
+#img>img{
+    height: 35px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
